@@ -1,4 +1,4 @@
 function Navbar(menu) {
-    return<div>IFMS - DOURADOS </div>
+    return<div>MENU FW </div>
 }
 export default  Navbar;
