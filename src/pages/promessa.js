@@ -13,7 +13,7 @@ export default function Promessa() {
     return <>
         <Menu />
         <Container>
-            Promessa(pao==="" ? "<caregando>" : pao)
+            Promessa(pao=== "" ? <img src="./loading.gif" width={60} height={20}/>  : pao)
         </Container>
         <Footer />
     </>
